@@ -33,3 +33,22 @@ Until such time that magento/magento2#6762 and commit #e200425c from [MAGETWO-59
 **TODO**
 
 + a [Plugin (interceptor)](http://devdocs.magento.com/guides/v2.0/extension-dev-guide/plugins.html) might be better way to tackles this to avoid modules fighting over the entire class.
+
+
+## Installation
+
+In your project's `composer.json` file, add the following lines to the `require` and `repositories` sections:
+
+```js
+{
+    "require": {
+        "augustash/module-fixsalesruledates": "dev-master"
+    },
+    "repositories": {
+        "augustash-fixsalesruledates": {
+            "type": "vcs",
+            "url": "https://github.com/augustash/magento2-module-fixsalesruledates.git"
+        }
+    }
+}
+```
