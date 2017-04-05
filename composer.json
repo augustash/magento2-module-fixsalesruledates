@@ -1,0 +1,22 @@
+{
+    "name": "augustash/module-fixsalesruledates",
+    "license": "OSL-3.0",
+    "type": "magento2-module",
+    "description": "Fix Start/End Dates added to cart sales rule automatically. See Github magento/magento2#6762 and reference internal ticket MAGETWO-59047",
+    "require": {
+    },
+    "authors":[
+        {
+            "name":"Josh Johnson",
+            "email":"josh@augustash.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Augustash\\FixSalesRuleDates\\": ""
+        }
+    }
+}
